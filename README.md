@@ -2,13 +2,13 @@
 Self-Driving Car Engineer Nanodegree Program
 
 ---
-##Overview
+## Overview
 This project implements a PID controller to keep a car on a race track by properly adjusting the steering angle.
 
-###What is a PID controller?
+### What is a PID controller?
 A controller is used to manage the steering, throttle and brakes to move a vehicle where we'd like it to go. A Proportional–Integral–Derivative (PID) controller is one of the most common forms of these control loop feedback mechanisms. A PID controller continuously calculates an error function (in this case: the distance from the center of the lane) and applies a correction based on proportional (P), integral (I), and derivative (D) terms.
 
-###Choosing PID Parameters
+### Choosing PID Parameters
 The behavior of a PID controller depends on three main parameters, or control gains:
 
 1) Proportional - involves steering the vehicle proportionally to cross track error, which is the lateral difference between the vehicle and its reference trajectory. This process results in slightly, continuously overshooting the desired path:
